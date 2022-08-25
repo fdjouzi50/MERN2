@@ -12,5 +12,5 @@ const CompteSchema = new mongoose.Schema({
     },
 });
 
-const CompteModel = mongoose.model("Compte",CompteSchema); 
+const CompteModel = mongoose.model("Compte",CompteSchema, "Compte");
 module.exports = CompteModel;
