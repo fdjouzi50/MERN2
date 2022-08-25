@@ -8,7 +8,7 @@ function App() {
   const [password, setPassword] = useState("")
 
   useEffect(() => {
-    Axios.get("http://localhost:3001/getComptes").then((response) => {
+    Axios.get("http://localhost:3001/getCompte").then((response) => {
       setListOfComptes(response.data);
     })
   }, []);
